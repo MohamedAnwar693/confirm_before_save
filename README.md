@@ -117,7 +117,7 @@ For issues, questions, or feature requests:
 
 ## Credits
 
-**Author**: Mohamed Anwar 
+**Author**: Mohamed Anwar  
 **Version**: 17.0.1.0.0  
 **License**: LGPL-3
 
