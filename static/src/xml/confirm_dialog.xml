@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="confirm_before_save.ConfirmDialog" owl="1">
+        <Dialog title="'Unsaved Changes'" size="'md'">
+            <div class="modal-body">
+                <div class="alert alert-warning mb-3" role="alert">
+                    <i class="fa fa-exclamation-triangle me-2"></i>
+                    <strong>Warning:</strong> You have unsaved changes on this form.
+                </div>
+                <p class="mb-3">What would you like to do with your changes?</p>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2">
+                        <i class="fa fa-save text-success me-2"></i>
+                        <strong>Save:</strong> Save your changes and continue
+                    </li>
+                    <li class="mb-2">
+                        <i class="fa fa-times text-danger me-2"></i>
+                        <strong>Discard:</strong> Discard your changes and continue
+                    </li>
+                    <li class="mb-0">
+                        <i class="fa fa-ban text-muted me-2"></i>
+                        <strong>Cancel:</strong> Stay on this page
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" t-on-click="props.cancel">
+                    <i class="fa fa-times me-1"></i> Discard
+                </button>
+                <button class="btn btn-light" t-on-click="props.close">
+                    <i class="fa fa-ban me-1"></i> Cancel
+                </button>
+                <button class="btn btn-primary" t-on-click="props.confirm">
+                    <i class="fa fa-save me-1"></i> Save
+                </button>
+            </div>
+        </Dialog>
+    </t>
+</templates>
