@@ -1,0 +1,46 @@
+.o_form_modified {
+    position: relative;
+}
+
+.o_form_modified::before {
+    content: "● Unsaved Changes";
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.o_form_modified .o_form_sheet {
+    border-left: 3px solid #ff6b6b;
+}
+
+.modal-content .modal-body {
+    padding: 20px;
+}
+
+.modal-content .modal-footer {
+    padding: 15px 20px;
+}
+
+.o_form_modified .o_form_statusbar {
+    border-bottom: 2px solid #ff6b6b;
+}
