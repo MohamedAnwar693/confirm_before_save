@@ -118,7 +118,6 @@ For issues, questions, or feature requests:
 
 **Author**: Mohamed Anwar  
 **Version**: 19.0.1.0.0  
-**License**: LGPL-3
 
 ---
 
