@@ -97,7 +97,6 @@ confirm_before_save/
 
 - **Odoo Version**: 17.0
 - **Dependencies**: base, web
-- **License**: LGPL-3
 
 ## Benefits
 
@@ -119,7 +118,6 @@ For issues, questions, or feature requests:
 
 **Author**: Mohamed Anwar  
 **Version**: 17.0.1.0.0  
-**License**: LGPL-3
 
 ---
 
