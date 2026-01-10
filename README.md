@@ -97,7 +97,6 @@ confirm_before_save/
 
 - **Odoo Version**: 19.0
 - **Dependencies**: base, web
-- **License**: LGPL-3
 
 ## Benefits
 
